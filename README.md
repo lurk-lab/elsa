@@ -1,8 +1,12 @@
-## elsa
+## lurk-elsa
 
-[![Build Status](https://travis-ci.org/Manishearth/elsa.svg?branch=master)](https://travis-ci.org/Manishearth/elsa)
-[![Current Version](https://img.shields.io/crates/v/elsa.svg)](https://crates.io/crates/elsa)
-[![License: MIT/Apache-2.0](https://img.shields.io/crates/l/elsa.svg)](#license)
+![lurk-rs](https://github.com/lurk-lab/lurk-rs/actions/workflows/ci.yml/badge.svg)
+[![Current Version](https://img.shields.io/crates/v/lurk-elsa.svg)](https://crates.io/crates/lurk-elsa)
+[![License: MIT/Apache-2.0](https://img.shields.io/crates/l/lurk-elsa.svg)](#license)
+
+> [!IMPORTANT]
+> This repo is a fork of https://github.com/Manishearth/elsa. It supports a crate release which only increment on the original is a sync variant of the `FrozenIndexMap` and `FrozenIndexSet` data structures, used in Lurk.
+> This feature was PRed to upstream in https://github.com/Manishearth/elsa/pull/67 and this crate should become obsolete if it merges.
 
 _🎵 Immutability never bothered me anyway 🎶_
 

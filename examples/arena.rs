@@ -1,4 +1,4 @@
-use elsa::FrozenVec;
+use lurk_lurk_elsa::FrozenVec;
 
 fn main() {
     let arena = Arena::new();

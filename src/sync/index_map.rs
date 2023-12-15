@@ -61,7 +61,7 @@ impl<K: Eq + Hash, V: StableDeref, S: BuildHasher> FrozenIndexMap<K, V, S> {
     ///
     /// # Example
     /// ```
-    /// use elsa::sync::index_map::FrozenIndexMap;
+    /// use lurk_elsa::sync::index_map::FrozenIndexMap;
     /// let map = FrozenIndexMap::new();
     /// assert_eq!(map.insert(1, Box::new("a")), &"a");
     /// assert_eq!(map.insert(1, Box::new("b")), &"a");
@@ -89,7 +89,7 @@ impl<K: Eq + Hash, V: StableDeref, S: BuildHasher> FrozenIndexMap<K, V, S> {
     ///
     /// # Example
     /// ```
-    /// use elsa::sync::index_map::FrozenIndexMap;
+    /// use lurk_elsa::sync::index_map::FrozenIndexMap;
     /// let map = FrozenIndexMap::new();
     /// assert_eq!(map.insert_full(12, Box::new("a")), (0, &"a"));
     /// assert_eq!(map.insert_full(12, Box::new("b")), (0, &"a"));
@@ -114,7 +114,7 @@ impl<K: Eq + Hash, V: StableDeref, S: BuildHasher> FrozenIndexMap<K, V, S> {
     /// # Examples
     ///
     /// ```
-    /// use elsa::sync::index_map::FrozenIndexMap;
+    /// use lurk_elsa::sync::index_map::FrozenIndexMap;
     ///
     /// let map = FrozenIndexMap::new();
     /// map.insert(1, Box::new("a"));
@@ -140,7 +140,7 @@ impl<K: Eq + Hash, V: StableDeref, S: BuildHasher> FrozenIndexMap<K, V, S> {
     /// # Examples
     ///
     /// ```
-    /// use elsa::sync::index_map::FrozenIndexMap;
+    /// use lurk_elsa::sync::index_map::FrozenIndexMap;
     ///
     /// let map = FrozenIndexMap::new();
     /// let (idx, _ref) = map.insert_full(Box::new("foo"), Box::new("a"));
@@ -170,7 +170,7 @@ impl<K: Eq + Hash, V: StableDeref, S: BuildHasher> FrozenIndexMap<K, V, S> {
     /// # Examples
     ///
     /// ```
-    /// use elsa::sync::index_map::FrozenIndexMap;
+    /// use lurk_elsa::sync::index_map::FrozenIndexMap;
     ///
     /// let map = FrozenIndexMap::new();
     /// map.insert(1, Box::new("a"));
@@ -197,7 +197,7 @@ impl<K, V, S> FrozenIndexMap<K, V, S> {
     /// # Examples
     ///
     /// ```
-    /// use elsa::sync::index_map::FrozenIndexMap;
+    /// use lurk_elsa::sync::index_map::FrozenIndexMap;
     ///
     /// let map = FrozenIndexMap::new();
     /// map.insert(1, Box::new("a"));
@@ -229,7 +229,7 @@ impl<K, V, S> FrozenIndexMap<K, V, S> {
     /// # Examples
     ///
     /// ```
-    /// use elsa::sync::index_map::FrozenIndexMap;
+    /// use lurk_elsa::sync::index_map::FrozenIndexMap;
     ///
     /// let map = FrozenIndexMap::new();
     /// assert_eq!(map.is_empty(), true);
@@ -262,7 +262,7 @@ where
     /// # Examples
     ///
     /// ```
-    /// use elsa::sync::index_map::FrozenIndexMap;
+    /// use lurk_elsa::sync::index_map::FrozenIndexMap;
     ///
     /// let map = FrozenIndexMap::new();
     /// map.insert(1, Box::new("a"));

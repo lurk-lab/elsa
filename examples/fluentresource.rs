@@ -1,4 +1,4 @@
-use elsa::FrozenMap;
+use lurk_lurk_elsa::FrozenMap;
 
 /// Stores some parsed AST representation of the file
 #[derive(Debug)]

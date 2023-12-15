@@ -34,7 +34,7 @@ impl<K: Eq + Hash, V> FrozenMap<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use elsa::FrozenMap;
+    /// use lurk_elsa::FrozenMap;
     ///
     /// let map = FrozenMap::new();
     /// assert_eq!(map.len(), 0);
@@ -55,7 +55,7 @@ impl<K: Eq + Hash, V> FrozenMap<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use elsa::FrozenMap;
+    /// use lurk_elsa::FrozenMap;
     ///
     /// let map = FrozenMap::new();
     /// assert_eq!(map.is_empty(), true);
@@ -90,7 +90,7 @@ impl<K: Eq + Hash, V: StableDeref, S: BuildHasher> FrozenMap<K, V, S> {
     /// # Examples
     ///
     /// ```
-    /// use elsa::FrozenMap;
+    /// use lurk_elsa::FrozenMap;
     ///
     /// let map = FrozenMap::new();
     /// map.insert(1, Box::new("a"));
@@ -121,7 +121,7 @@ impl<K: Eq + Hash, V: StableDeref, S: BuildHasher> FrozenMap<K, V, S> {
     /// # Examples
     ///
     /// ```
-    /// use elsa::FrozenMap;
+    /// use lurk_elsa::FrozenMap;
     ///
     /// let map = FrozenMap::new();
     /// map.insert(1, Box::new("a"));
@@ -153,7 +153,7 @@ impl<K, V, S> FrozenMap<K, V, S> {
     /// # Examples
     ///
     /// ```
-    /// use elsa::FrozenMap;
+    /// use lurk_elsa::FrozenMap;
     ///
     /// let map = FrozenMap::new();
     /// map.insert(1, Box::new("a"));
@@ -185,7 +185,7 @@ impl<K: Eq + Hash + StableDeref, V: StableDeref, S: BuildHasher> FrozenMap<K, V,
     /// # Examples
     ///
     /// ```
-    /// use elsa::FrozenMap;
+    /// use lurk_elsa::FrozenMap;
     ///
     /// let map = FrozenMap::new();
     /// map.insert(Box::new("1"), Box::new("a"));
@@ -239,7 +239,7 @@ where
     /// # Examples
     ///
     /// ```
-    /// use elsa::FrozenMap;
+    /// use lurk_elsa::FrozenMap;
     ///
     /// let map = FrozenMap::new();
     /// map.insert(1, Box::new("a"));
@@ -321,7 +321,7 @@ impl<K: Clone + Ord, V: StableDeref> FrozenBTreeMap<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use elsa::FrozenBTreeMap;
+    /// use lurk_elsa::FrozenBTreeMap;
     ///
     /// let map = FrozenBTreeMap::new();
     /// assert_eq!(map.len(), 0);
@@ -342,7 +342,7 @@ impl<K: Clone + Ord, V: StableDeref> FrozenBTreeMap<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use elsa::FrozenBTreeMap;
+    /// use lurk_elsa::FrozenBTreeMap;
     ///
     /// let map = FrozenBTreeMap::new();
     /// assert_eq!(map.is_empty(), true);
@@ -377,7 +377,7 @@ impl<K: Clone + Ord, V: StableDeref> FrozenBTreeMap<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use elsa::FrozenBTreeMap;
+    /// use lurk_elsa::FrozenBTreeMap;
     ///
     /// let map = FrozenBTreeMap::new();
     /// map.insert(1, Box::new("a"));
@@ -408,7 +408,7 @@ impl<K: Clone + Ord, V: StableDeref> FrozenBTreeMap<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use elsa::FrozenBTreeMap;
+    /// use lurk_elsa::FrozenBTreeMap;
     ///
     /// let map = FrozenBTreeMap::new();
     /// map.insert(1, Box::new("a"));
@@ -440,7 +440,7 @@ impl<K, V> FrozenBTreeMap<K, V> {
     /// # Examples
     ///
     /// ```
-    /// use elsa::FrozenBTreeMap;
+    /// use lurk_elsa::FrozenBTreeMap;
     ///
     /// let map = FrozenBTreeMap::new();
     /// map.insert(1, Box::new("a"));
@@ -491,7 +491,7 @@ where
     /// # Examples
     ///
     /// ```
-    /// use elsa::FrozenBTreeMap;
+    /// use lurk_elsa::FrozenBTreeMap;
     ///
     /// let map = FrozenBTreeMap::new();
     /// map.insert(1, Box::new("a"));

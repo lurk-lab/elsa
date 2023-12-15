@@ -40,7 +40,7 @@ impl<T: Eq + Hash + StableDeref, S: BuildHasher> FrozenIndexSet<T, S> {
     ///
     /// # Example
     /// ```
-    /// use elsa::index_set::FrozenIndexSet;
+    /// use lurk_elsa::index_set::FrozenIndexSet;
     /// let set = FrozenIndexSet::new();
     /// let a_ref = set.insert(Box::new("a"));
     /// let aa = "a";
@@ -71,7 +71,7 @@ impl<T: Eq + Hash + StableDeref, S: BuildHasher> FrozenIndexSet<T, S> {
     ///
     /// # Example
     /// ```
-    /// use elsa::index_set::FrozenIndexSet;
+    /// use lurk_elsa::index_set::FrozenIndexSet;
     /// let map = FrozenIndexSet::new();
     /// assert_eq!(map.insert_full(Box::new("a")), (0, &"a"));
     /// assert_eq!(map.insert_full(Box::new("b")), (1, &"b"));
@@ -120,7 +120,7 @@ impl<T: Eq + Hash + StableDeref, S: BuildHasher> FrozenIndexSet<T, S> {
     /// # Examples
     ///
     /// ```
-    /// use elsa::index_set::FrozenIndexSet;
+    /// use lurk_elsa::index_set::FrozenIndexSet;
     ///
     /// let set = FrozenIndexSet::new();
     /// set.insert(Box::new("a"));
@@ -148,7 +148,7 @@ impl<T: Eq + Hash + StableDeref, S: BuildHasher> FrozenIndexSet<T, S> {
     /// # Examples
     ///
     /// ```
-    /// use elsa::index_set::FrozenIndexSet;
+    /// use lurk_elsa::index_set::FrozenIndexSet;
     ///
     /// let set = FrozenIndexSet::new();
     /// set.insert(Box::new("a"));
@@ -176,7 +176,7 @@ impl<T: Eq + Hash + StableDeref, S: BuildHasher> FrozenIndexSet<T, S> {
     /// # Examples
     ///
     /// ```
-    /// use elsa::index_set::FrozenIndexSet;
+    /// use lurk_elsa::index_set::FrozenIndexSet;
     ///
     /// let set = FrozenIndexSet::new();
     /// set.insert(Box::new("a"));
