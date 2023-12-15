@@ -1,7 +1,7 @@
 use std::collections::BTreeSet;
 use std::convert::AsRef;
 
-use lurk_lurk_elsa::FrozenIndexSet;
+use lurk_elsa::FrozenIndexSet;
 
 struct StringInterner {
     set: FrozenIndexSet<String>,

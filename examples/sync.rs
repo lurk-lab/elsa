@@ -1,4 +1,4 @@
-use lurk_lurk_elsa::sync::*;
+use lurk_elsa::sync::*;
 
 use std::sync::Arc;
 use std::thread;
